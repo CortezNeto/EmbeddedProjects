@@ -1,0 +1,3 @@
+The goal of this Project is to develop an embedded system connected to a PC game. The PC game is about a guy who is riding a bycicle through the street, so when a hill shows up at the scene, the game send a signal through MQTT protocol to the system. The system, in turn, is composed by an Arduino, an ESP-01, a drive TB6600 and a stepper motor NEMA 17. Thus, ESP-01 receive the signal through MQTT and sends it to the Arduino board that is responsible for triggering the stepper motor.
+
+In turn, the stepper motor will tight an exercise bike, getting hard to ride.
