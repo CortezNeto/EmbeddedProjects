@@ -2,9 +2,9 @@
 #include <SoftwareSerial.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Hobbitown";
-const char* password = "12345678";
-const char* mqtt_server = "192.168.142.85"; // IP do seu notebook
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = ""; // IP do seu notebook
 
 WiFiClient espClient;
 PubSubClient client(espClient);
